@@ -2,6 +2,7 @@
 
 This bash script performs a thorough cleanup of your Ubuntu system and generates a final report. It is designed to free up disk space and remove unnecessary files and packages.
 
+
 ## ✨ Features ✨
 
 - 🔄 **Updates the package list**
@@ -17,26 +18,36 @@ This bash script performs a thorough cleanup of your Ubuntu system and generates
 ## 📋 Requirements 📋
 
 - 🐧 **Ubuntu operating system**
-- 🖥️ **Bash shell**
+- 🖥️ **Git installed**
 - 🔐 **Sudo privileges**
 
 ## 🚀 Usage 🚀
 
-1. **Download the `cleanup.sh` script or clone this repository.**
-
-2. **Open a terminal and navigate to the directory containing the script.**
-
-3. **Make the script executable by running the following command:**
+1. **Download the [`clean.sh`](blob:https://github.com/ed37090c-5bba-4aba-b209-3098f578629a) script or clone this repository by typing on terminal:**
 
    ```bash
-   chmod +x clean.sh
+   git clone https://github.com/0hv/ubuntu_clean.git
 
    ```
-4. Run the script with sudo privileges:
-   ```bash
-   sudo ./clean.sh
+
+2. **Once the project downloaded, navigate to the directory containing the script.**
+
+      ```bash
+   cd ubuntu_clean/
+
    ```
-5. The script will perform the cleanup tasks and display a final report showing the disk space usage before and after the cleanup, as well as the amount of space saved.
+
+4. **Make the script executable by running the following command:**
+
+   ```bash
+   chmod +x cleanup.sh
+
+   ```
+5. Run the script with sudo privileges:
+   ```bash
+   sudo ./cleanup.sh
+   ```
+6. The script will perform the cleanup tasks and display a final report showing the disk space usage before and after the cleanup, as well as the amount of space saved.
 
 
 ## 📜 License 📜
