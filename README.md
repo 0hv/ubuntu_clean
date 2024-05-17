@@ -29,12 +29,12 @@ This bash script performs a thorough cleanup of your Ubuntu system and generates
 3. **Make the script executable by running the following command:**
 
    ```bash
-   chmod +x cleanup.sh
+   chmod +x clean.sh
 
    ```
 4. Run the script with sudo privileges:
    ```bash
-   sudo ./cleanup.sh
+   sudo ./clean.sh
    ```
 5. The script will perform the cleanup tasks and display a final report showing the disk space usage before and after the cleanup, as well as the amount of space saved.
 
