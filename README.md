@@ -2,10 +2,6 @@
 
 This bash script performs a thorough cleanup of your Ubuntu system and generates a final report. It is designed to free up disk space and remove unnecessary files and packages.
 
-<p align="center">
-  <img src="https://www.ubuntu.com/sites/default/files/ubuntu_logo.png" width="200px" alt="Ubuntu Logo">
-</p>
-
 ## ✨ Features ✨
 
 - 🔄 **Updates the package list**
